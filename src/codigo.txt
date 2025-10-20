@@ -1,4 +1,4 @@
-import { useState } from 'react';
+{/* import { useState } from 'react';
 import './App.css';
 
 // MUI
@@ -17,8 +17,8 @@ const GATO_URL = '/img/gato.webp';
 
 const mascotas = [
   { id: 1, nombre: 'Luna', raza: 'Siames', imagen: '/img/gato.webp' },
-  { id: 2, nombre: 'Princesa', raza: 'Estadounidense', imagen: '/img/bulldog.webp' },
-  { id: 3, nombre: 'Badgyal', raza: 'Vecindario', imagen: '/img/pezfeo.webp' },
+  { id: 2, nombre: 'Toby', raza: 'Golden Retriever', imagen: '/img/perro.webp' },
+  { id: 3, nombre: 'Nina', raza: 'Persa', imagen: '/img/gato2.webp' },
   { id: 4, nombre: 'Orca', raza: 'Chapotea', imagen: '/img/orca.webp' }
 ];
 
@@ -87,6 +87,7 @@ function App() {
         </Grid>
       </Grid>
 
+      {/* 👇 AQUÍ VA EL DIV CON LAS FICHAS (reemplaza las dos anteriores sueltas) */}
       <div
         style={{
           display: 'flex',
